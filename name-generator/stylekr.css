@@ -1,0 +1,128 @@
+*:before,
+*:after{
+    box-sizing: border-box;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Pixel Operator HB', sans-serif ;
+    font-size: 1em;
+    color: white;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.container{
+    width: calc(768px - 1rem) ;
+    background-color:  #192942;
+    color: #fff;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.container h4{
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container .form{
+    position: relative;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.container .form input{
+    width: 100%;
+    background-color: #ffefe9;
+    border: none;
+    outline: none;
+    padding: 15px 145px 15px 12px;
+    border-radius: 10px;
+    color: #192942;
+    font-size: 0.9rem;
+}
+
+.container .form button{
+    position: absolute;
+    padding: 12px;
+    border-radius: 10px;
+    font-family: inherit;
+    color: #192942;
+    font-size: 1rem;
+    border: none;
+    background-color:#f0dfda ;
+    right: 3px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.container .form button:hover{
+    background-color: #948884;
+}
+
+.container .nameBox{
+    position: relative;
+    background-color: #112950bb;
+    border-radius: 10px;
+    padding:12px;
+}
+
+.container .nameBox span{
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: .3px;
+}
+
+.switch{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+}
+
+.switch button{
+    background-color: #112950;
+    font-family: inherit;
+    border: none;
+    padding: 12px;
+    font: 1rem;
+
+
+}
+
+.switch button a:link{
+    color: white;
+    text-decoration: none;
+}
+
+.switch button a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.switch button:hover{
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    box-shadow: 2px 1px 8px #888888;
+}
