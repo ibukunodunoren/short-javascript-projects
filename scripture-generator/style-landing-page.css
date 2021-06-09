@@ -1,0 +1,108 @@
+*:before,
+*:after{
+    box-sizing: border-box;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Pixel Operator HB', sans-serif ;
+    font-size: 1em;
+    color: white;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9d29d;
+    background-image: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+
+
+.container{
+    width: calc(768px - 1rem) ;
+    background-color:  #192942;
+    color: #fff;
+    padding: 17px;
+    border-radius: 10px;
+}
+
+.container h4{
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.categories{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.categories button{
+    margin: 6px;
+    background-color: #f0dfda ;
+    border: 0;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 3px;
+}
+
+
+.categories button a:link{
+    text-decoration: none;
+    color: #112950;
+}
+
+.categories button a:visited{
+    text-decoration: none;
+    color:  #112950;
+}
+
+.categories button:hover{
+    background-color: #45669c;
+    cursor: pointer;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    transition-duration: 0.5s;
+    
+    
+}
+
+.categories button a:hover{
+    color: white;
+}
+
+.contact{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:  #f0dfda;
+    border-radius: 3px;
+    padding: 2px;
+    color: #112950;
+    margin: 60px auto 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #306bc9;
+    cursor: pointer;
+}
+
